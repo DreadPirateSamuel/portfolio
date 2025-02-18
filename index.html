@@ -1,162 +1,208 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-    <title>Sam's Portfolio</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-    <style>
-        /* General Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Responsive Header */
-        #header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 1rem;
-            text-align: center;
-            width: 100%;
-        }
-
-        /* Intro Section */
-        #intro {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 120vh; /* Increased height to avoid disappearing too quickly */
-            text-align: center;
-            padding: 40px 20px;
-        }
-
-        .intro-content {
-            max-width: 90%;
-            width: 600px;
-        }
-
-        /* Bigger Responsive Image */
-        .intro-image img {
-            width: 100%;
-            max-width: 400px; /* Increased image size */
-            height: auto;
-            margin-bottom: 1rem;
-        }
-
-        /* Responsive Text */
-        .intro-text {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            max-width: 700px;
-        }
-
-        /* Contact Section */
-        #contact {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            padding: 20px 0;
-            background-color: azure;
-            text-align: center;
-        }
-
-        .icons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            list-style: none;
-            padding: 0;
-        }
-
-        .icons a {
-            font-size: 1.2rem;
-            text-decoration: none;
-            color: inherit;
-        }
-
-        /* Skills, Education, Projects */
-        .section-content {
-            max-width: 90%;
-            margin: 0 auto;
-            padding: 50px 20px; /* Increased padding to avoid abrupt transition */
-            text-align: center;
-        }
-
-        /* Ensure lists are readable */
-        .section-content ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .section-content li {
-            padding: 10px 0;
-        }
-
-        /* Responsive Project Images */
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        /* Media Queries for Mobile & Larger Screens */
-        @media (max-width: 768px) {
-            .intro-content {
-                width: 90%;
-            }
-
-            .intro-image img {
-                max-width: 350px; /* Adjusted for tablets */
-            }
-
-            .icons a {
-                font-size: 1rem;
-            }
-
-            .section-content {
+	<head>
+		<title>Samuel Yoder's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			#header {
+				display: flex;
+				margin-top: 2rem;
+				flex-direction: column; /* Stack image and text vertically */
+				align-items: center;
+				justify-content: center;
+			}
+		</style>
+		<style>
+			/* Intro Section Styling */
+			#intro {
+				display: flex;
+				flex-direction: column; /* Stack image and text vertically */
+				align-items: center;
+				justify-content: center;
+				height: 100vh;
+			}
+			.intro-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				width: 80%;
+				max-width: 600px; /* Set a max width for better control on large screens */
+				text-align: center;
+			}
+			.intro-image {
+                display: flex;
+                justify-content: center; /* Center the image */
+                align-items: center;
                 width: 100%;
-                padding: 30px 15px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .intro-text {
-                font-size: 1rem;
             }
 
             .intro-image img {
-                max-width: 300px; /* Adjusted for small screens */
+                width: 100%;
+                height: auto;
+                max-width: 600px; /* Adjust this value based on your preference */
             }
 
-            .icons a {
-                font-size: 1rem;
-            }
-        }
-    </style>
-</head>
+			.intro-text {
+				font-size: 13px; /* Adjust font size for readability */
+				line-height: 1.3;
+			}
+		</style>
+		<style>
+			/* Contact Styling */
+			#contact {
+				display: flex; /* Make nav a flex container */
+				justify-content: center; /* Center content horizontally */
+				align-items: center; /* Vertically center the items */
+				padding: 10px 0; /* Padding for spacing */
+				margin-top: 1rem;
+				position: relative; /* Keep it positioned as part of the main layout */
+				background-color: azure;
+			}
+	
+			.icons {
+				display: flex; /* Display list items in a row */
+				justify-content: center; /* Ensure the list is centered within the container */
+				gap: 20px; /* Space between each list item */
+				margin: 0;
+				padding: 0;
+				list-style: none; /* Remove default list styling */
+			}
+	
+			.icons li {
+				display: inline-block; /* Ensure each link is an inline block */
+			}
+	
+			.icons a {
+				text-decoration: none; /* Remove underline */
+				color: inherit; /* Use default text color */
+				font-size: 1.4vw; /* Font size for text links */
+			}
+	
+			.icons a:hover {
+				text-decoration: underline; /* Underline on hover */
+			}
+	
+			.icons .icon {
+				font-size: 1.4vw; /* Set a standard icon size */
+			}
+		</style>
+	<body class="is-preload">
 
-<body class="is-preload">
-    <!-- Wrapper -->
-    <div id="wrapper" class="fade-in">
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
 
-        <!-- Header -->
-        <header id="header">
-            <a href="#" class="logo">Samuel Yoder's Portfolio</a>
-        </header>
+			<!-- Header -->
+			<header id="header">
+				<a href="#" class="logo">Samuel Yoder's Portfolio</a>
+			</header>
+	
+			<!-- Intro -->
+			<div id="intro">
+				<div class="intro-content">
+					<div class="intro-image">
+						<img src="images/portfoliopic.png" alt="Samuel Yoder" />
+					</div>
+					<div class="intro-text">
+						<p>Hello! I'm Samuel Yoder, a dedicated Computer Science undergraduate with a strong passion for software development and machine learning. Specializing in C++, C#, and Python, I thrive on building projects that challenge my programming skills. Eager to contribute to innovative projects and collaborate with industry professionals, I am excited to apply my expertise and learn in a real-world setting.</p>
+					</div>
+				</div>
+			</div>
 
-        <!-- Intro -->
-        <div id="intro">
-            <div class="intro-content">
-                <div class="intro-image">
-                    <img src="images/portfoliopic.png" alt="Samuel Yoder" />
-                </div>
-                <div class="intro-text">
-                    <p>Hello
+			<!-- Navigation -->
+			<nav id="contact">
+				<ul class="icons">
+					<!-- Email and Phone number without icons -->
+					<li><a href="mailto:sam061704@icloud.com">Email: sam061704@icloud.com</a></li>
+					<li><a href="tel:+18133908538">Phone Number: (813)-390-8538</a></li>
+			
+					<!-- Social Media Links with icons -->
+					<li><a href="https://www.linkedin.com/in/samueldyoder/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/DreadPirateSamuel" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+			</nav>
+			
+			
 
+			<!-- Main Content Sections -->
+			<div id="main">
+				<!-- Skills Section -->
+				<section id="skills" class="section-content">
+					<h2>Skills</h2>
+					<ul>
+						<li><strong>Programming Languages</strong>: C++, C#, Python, JavaScript, Java, HTML, MIPS Assembly</li>
+						<li><strong>Frameworks & Tools</strong>: React, Node.js, .NET MAUI, Git, GitHub</li>
+						<li><strong>Databases</strong>: SQL</li>
+						<li><strong>Development Practices</strong>: Agile Methodologies</li>
+						<li><strong>Microsoft Office</strong>: Word, PowerPoint, Excel</li>
+						<li><strong>Soft Skills</strong>: Strong problem-solving abilities, effective teamwork, clear communication, critical thinking, and social perceptiveness.</li>
+					</ul>
+				</section>
+
+				<!-- Education Section -->
+				<section id="education" class="section-content">
+					<h2>Education</h2>
+					<ul>
+						<li><strong>Major</strong>: Bachelor of Arts in Computer Science at Florida State University.</li>
+						<li><strong>Graduation Date</strong>: May 2026</li>
+						<li><strong>Cumulative GPA</strong>: 3.6</li>
+						<li><strong>Student Member</strong>: Association for Computing Machinery</li>
+						<li>Maintained a high academic standing and was recognized on the Spring 2024 President's List for achieving a 4.0 GPA.</li>
+					</ul>
+				</section>
+
+				<!-- Projects Section -->
+				<section id="projects" class="section-content">
+					<h2>Projects</h2>
+					<ul>
+						<li><strong>C++ Game Projects</strong>: Fully functional chess, tic-tac-toe, and hangman games written in C++.</li>
+						<li><strong>FSU Student Calendar App</strong>: Lead developer on a team creating a calendar app for FSU students, integrating with Canvas to import class schedules and deadlines. The app features an OCR-based image recognition system that extracts event details from images and automatically adds them to the student calendar. It syncs with FSU’s websites to ensure accurate and up-to-date event tracking. Developed in C# for future publication on Apple’s App Store and Google Play.</li>
+						<li><strong>Shopping App with a Functional UI and Database</strong>: A .NET MAUI Application with SQL database that mimics Amazon, offering a frontend and backend written in C#. The app had an interactive mode where customers could shop from a database, and another mode for employees so that they could manage the database.</li>
+						<li><strong>Data Structures Project</strong>: Built my own version of a fully functional Linked List class in C++ (including an iterator and const_iterator), as well as classes for the Binary Search Tree, Heap, Queue, and Dequeue. </li>
+						<li><strong>Assembly Code Number Conversion Project</strong>: MIPS Assembly program converting any number to its binary and hex value equivalents.</li>
+						<li><strong>To-Do List Shell Script</strong>: Shell script for task management in Linux, which sorts and organizes to-do list items based on importance. </li>
+					</ul>
+				</section>
+
+				<!-- Relevant Experience Section -->
+				<section id="relevant-experience" class="section-content active">
+					<h2>Relevant Experiences</h2>
+						<p>Featured below is a list of my relevant experiences and projects that have helped me build a solid foundation in Computer Science. While I have not yet had the opportunity to gain formal internship experience, I am actively seeking my first internship and am eager to apply my skills in a professional setting.</p>
+						<ul>
+							<li><strong>ACM Coding Competition</strong>: Competed in the ACM Programming Contest at FSU as part of a 3-member team. Demonstrated problem-solving skills and collaboration under time constraints, improving our algorithmic design abilities.</li>
+							<li><strong>FSU Calendar App Project</strong>: Lead developer overseeing system architecture, front-end and back-end development, and database management. Contributing to coding, review, testing, and deployment, ensuring high-quality output.</li>
+							<li><strong>GitHub Certification</strong>: Earned GitHub Certification after completing exercises that demonstrated proficiency in Git for version control, collaboration, and project management. Developed expertise in branching, merging, conflict resolution, and pull requests, ensuring organized and efficient team collaboration.</li>
+						</ul>
+				</section>
+			</div>
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul><li>&copy; Samuel Yoder</li><li>Assets based on <a href="https://html5up.net">HTML5 UP</a></li></ul>
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script>
+			function showSection(sectionId) {
+				// Hide all sections
+				const sections = document.querySelectorAll('.section-content');
+				sections.forEach(section => section.classList.remove('active'));
+				
+				// Show the selected section
+				document.getElementById(sectionId).classList.add('active');
+			}
+		</script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,3 +1,4 @@
+/*
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -197,6 +198,220 @@
 		<script src="assets/js/main.js"></script>
 
 	</body>
+</html>
+*/
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Sam's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Responsive Header */
+        #header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* Intro Section */
+        #intro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .intro-content {
+            max-width: 90%;
+            width: 600px;
+        }
+
+        /* Responsive Image */
+        .intro-image img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        /* Responsive Text */
+        .intro-text {
+            font-size: 1rem;
+            line-height: 1.5;
+            max-width: 600px;
+        }
+
+        /* Contact Section */
+        #contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 10px 0;
+            background-color: azure;
+            text-align: center;
+        }
+
+        .icons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .icons a {
+            font-size: 1rem;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Skills, Education, Projects */
+        .section-content {
+            max-width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Ensure lists are readable */
+        .section-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section-content li {
+            padding: 5px 0;
+        }
+
+        /* Responsive Project Images */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Media Queries for Mobile & Larger Screens */
+        @media (max-width: 768px) {
+            .intro-content {
+                width: 90%;
+            }
+
+            .icons a {
+                font-size: 1.2rem;
+            }
+
+            .section-content {
+                width: 100%;
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .intro-text {
+                font-size: 0.9rem;
+            }
+
+            .icons a {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="#" class="logo">Samuel Yoder's Portfolio</a>
+        </header>
+
+        <!-- Intro -->
+        <div id="intro">
+            <div class="intro-content">
+                <div class="intro-image">
+                    <img src="images/portfoliopic.png" alt="Samuel Yoder" />
+                </div>
+                <div class="intro-text">
+                    <p>Hello! I'm Samuel Yoder, a dedicated Computer Science undergraduate with a strong passion for software development and machine learning. Specializing in C++, C#, and Python, I thrive on building projects that challenge my programming skills. Eager to contribute to innovative projects and collaborate with industry professionals, I am excited to apply my expertise and learn in a real-world setting.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav id="contact">
+            <ul class="icons">
+                <li><a href="mailto:sam061704@icloud.com">Email: sam061704@icloud.com</a></li>
+                <li><a href="tel:+18133908538">Phone Number: (813)-390-8538</a></li>
+                <li><a href="https://www.linkedin.com/in/samueldyoder/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/DreadPirateSamuel" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Sections -->
+        <div id="main">
+            <!-- Skills Section -->
+            <section id="skills" class="section-content">
+                <h2>Skills</h2>
+                <ul>
+                    <li><strong>Programming Languages</strong>: C++, C#, Python, JavaScript, Java, HTML, MIPS Assembly</li>
+                    <li><strong>Frameworks & Tools</strong>: React, Node.js, .NET MAUI, Git, GitHub</li>
+                    <li><strong>Databases</strong>: SQL</li>
+                    <li><strong>Development Practices</strong>: Agile Methodologies</li>
+                    <li><strong>Microsoft Office</strong>: Word, PowerPoint, Excel</li>
+                    <li><strong>Soft Skills</strong>: Strong problem-solving abilities, effective teamwork, clear communication, critical thinking, and social perceptiveness.</li>
+                </ul>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="section-content">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>Major</strong>: Bachelor of Arts in Computer Science at Florida State University.</li>
+                    <li><strong>Graduation Date</strong>: May 2026</li>
+                    <li><strong>Cumulative GPA</strong>: 3.6</li>
+                    <li><strong>Student Member</strong>: Association for Computing Machinery</li>
+                    <li>Maintained a high academic standing and was recognized on the Spring 2024 President's List for achieving a 4.0 GPA.</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul><li>&copy; Samuel Yoder</li><li>Assets based on <a href="https://html5up.net">HTML5 UP</a></li></ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
 </html>
 
 

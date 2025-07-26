@@ -3,11 +3,11 @@ import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react"; 
 
 const navItems = [
-  { name: 'Home', href: '/#/hero' },
-  { name: 'About', href: '/#/about' },
-  { name: 'Skills', href: '/#/skills' },
-  { name: 'Projects', href: '/#/projects' },
-  { name: 'Contact', href: '/#/contact' },
+  { name: 'Home', href: '/#/portfolio/hero' },
+  { name: 'About', href: '/#/portfolio/about' },
+  { name: 'Skills', href: '/#/portfolio/skills' },
+  { name: 'Projects', href: '/#/portfolio/projects' },
+  { name: 'Contact', href: '/#/portfolio/contact' },
 ];
 
 

@@ -5,7 +5,7 @@ const projects = [
         id: 1,
         title: "DEEP-TAO Astronomical Transient Classification",
         description: "A deep learning project replicating the DEEP-TAO study to classify transient astronomical events (e.g., supernovae) using a Convolutional Neural Network on FITS images. Achieved an F1-score of 0.9438, surpassing the original study's 0.5458, with visualizations like confusion matrices and sample images.",
-        image: "/projects/one.png",
+        image: `${import.meta.env.BASE_URL}projects/one.png`,
         tags: ["Python", "TensorFlow", "Deep Learning", "Astronomy", "Data Science"],
         demoUrl: "#",
         githubUrl: "https://github.com/DreadPirateSamuel/Deep-TAO-Replication"
@@ -14,7 +14,7 @@ const projects = [
         id: 2,
         title: "eCommerce Simulator",
         description: "A Flask-based web app to simulate an online store with user authentication, CRUD operations, and a dynamic tiered discount system (15%, 10%, 5%) based on purchase history. Features admin/customer interfaces and SQLite database synced with sample data.",
-        image: "/projects/two.png",
+        image: `${import.meta.env.BASE_URL}projects/two.png`,
         tags: ["Backend", "Python", "Flask", "SQLite", "HTML", "Web Development"],
         demoUrl: "#",
         githubUrl: "https://github.com/DreadPirateSamuel/eCommerce-Website-Project"
@@ -23,7 +23,7 @@ const projects = [
         id: 3,
         title: "Galaga‑Style Canvas Shooter",
         description: "A fast‑paced, endless 'Galaga'‑inspired shooter built with vanilla ES6 JavaScript and HTML5 Canvas. Features a responsive full‑screen canvas, turbo‑start speeds, 3 lives, and 100 levels of escalating difficulty. Encounter four distinct enemy types (normal, fast, big, zigzag) with unique movement patterns each wave. Controls: ←/→ to move, Space to shoot, R to restart.",
-        image: "/projects/three.png",
+        image: `${import.meta.env.BASE_URL}projects/three.png`,
         tags: ["JavaScript", "HTML5 Canvas", "Game Development", "ES6"],
         demoUrl: "#",
         githubUrl: "https://github.com/DreadPirateSamuel/galaga"

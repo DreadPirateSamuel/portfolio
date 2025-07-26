@@ -10,7 +10,7 @@ export const HeroSection = () => {
                 {/* Profile Photo */}
                 <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 mx-auto rounded-xl overflow-hidden border-4 border-primary shadow-lg animate-fade-in">
                     <img 
-                        src="../images/portfoliopic.png" 
+                        src={`${import.meta.env.BASE_URL}images/portfoliopic.png`}
                         alt="Samuel Yoder" 
                         className="w-full h-full object-cover"
                     />

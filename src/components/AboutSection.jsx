@@ -31,7 +31,7 @@ export const AboutSection = () => {
                             </a>
 
                             <a 
-                                href="/resume.docx" 
+                                href={`${import.meta.env.BASE_URL}resume.docx`} 
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                                 download
                             >

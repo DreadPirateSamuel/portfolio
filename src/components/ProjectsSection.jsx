@@ -27,9 +27,35 @@ const projects = [
         tags: ["JavaScript", "HTML5 Canvas", "Game Development", "ES6"],
         demoUrl: "#",
         githubUrl: "https://github.com/DreadPirateSamuel/galaga"
+    },
+    {
+        id: 4,
+        title: "Placeholder Project One",
+        description: "A placeholder project for future development. Details to be added soon.",
+        image: `${import.meta.env.BASE_URL}projects/one.png`,
+        tags: ["TBD"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/DreadPirateSamuel/Deep-TAO-Replication"
+    },
+    {
+        id: 5,
+        title: "Placeholder Project Two",
+        description: "A placeholder project for future development. Details to be added soon.",
+        image: `${import.meta.env.BASE_URL}projects/one.png`,
+        tags: ["TBD"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/DreadPirateSamuel/Deep-TAO-Replication"
+    },
+    {
+        id: 6,
+        title: "Placeholder Project Three",
+        description: "A placeholder project for future development. Details to be added soon.",
+        image: `${import.meta.env.BASE_URL}projects/one.png`,
+        tags: ["TBD"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/DreadPirateSamuel/Deep-TAO-Replication"
     }
 ];
-
 
 export const ProjectsSection = () => {
     return (

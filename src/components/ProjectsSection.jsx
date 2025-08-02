@@ -40,7 +40,7 @@ const projects = [
     {
         id: 5,
         title: "Placeholder Project Two",
-        description: "A placeholder project for future development. Details to be added soon.",
+        description: "A placeholder project for future  development. Details to be added soon.",
         image: `${import.meta.env.BASE_URL}projects/one.png`,
         tags: ["TBD"],
         demoUrl: "#",

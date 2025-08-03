@@ -31,29 +31,29 @@ const projects = [
     {
         id: 4,
         title: "Voice-Controlled Personal Assistant",
-        description: "A Python-based personal assistant for software developers, supporting voice and text input with hotword detection ('Hey Assistant'). Features include opening developer tools (VS Code, Git Bash), running Git commands, managing Python virtual environments, launching servers (Flask, Django, Jupyter), sending emails via Gmail SMTP, controlling TunnelBear VPN, file management, and unit conversions.",
-        image: `${import.meta.env.BASE_URL}projects/one.png`,
+        description: "A simpple Python-based personal assistant for software developers, supporting voice and text input with hotword detection ('Hey Assistant'). Features include opening developer tools (VS Code, Git Bash), running Git commands, managing Python virtual environments, launching servers (Flask, Django, Jupyter), sending emails via Gmail SMTP, controlling TunnelBear VPN, file management, and unit conversions.",
+        image: `${import.meta.env.BASE_URL}projects/four.png`,
         tags: ["Python", "gTTS", "Speech Recognition", "Automation", "Developer Tools"],
         demoUrl: "#",
-        githubUrl: "https://github.com/DreadPirateSamuel/Deep-TAO-Replication"
+        githubUrl: "https://github.com/DreadPirateSamuel/Offline-Voice-Assistant"
     },
     {
         id: 5,
         title: "Malware Traffic Classifier",
-        description: "A machine learning web app using XGBoost to classify network traffic as benign or malicious with the UNSW-NB15 dataset. Features a Streamlit interface for real-time predictions based on inputs like duration, protocol, and packet rates. Includes preprocessing with logarithmic transformation, robust scaling, and LabelEncoding for categorical features.",
-        image: `${import.meta.env.BASE_URL}projects/one.png`,
+        description: "A machine learning web program using XGBoost to classify network traffic as benign or malicious with the UNSW-NB15 dataset. Features a Streamlit interface for real-time predictions based on inputs like duration, protocol, and packet rates. Includes preprocessing with logarithmic transformation, robust scaling, and LabelEncoding for categorical features.",
+        image: `${import.meta.env.BASE_URL}projects/five.png`,
         tags: ["Python", "XGBoost", "Streamlit", "Machine Learning", "Cybersecurity"],
         demoUrl: "#",
-        githubUrl: "https://github.com/DreadPirateSamuel/Deep-TAO-Replication"
+        githubUrl: "https://github.com/DreadPirateSamuel/Malware-Traffic-Classifier"
     },
     {
         id: 6,
-        title: "Digit Recognition",
-        description: "A Pygame-based digit recognition app using a 3-layer CNN trained on MNIST to predict single, double, or triple digits (0-9) drawn on a 560x560 canvas. Supports mode toggling with guiding lines for multi-digit recognition and achieves >98% accuracy on single-digit predictions.",
-        image: `${import.meta.env.BASE_URL}projects/one.png`,
+        title: "Digit Recognition Neural Network",
+        description: "A Pygame-based digit recognition program using a 3-layer CNN trained on MNIST to predict single, double, or triple digits (0-9) drawn on a 560x560 canvas. Supports mode toggling with guiding lines for multi-digit recognition and achieves >98% accuracy on single-digit predictions.",
+        image: `${import.meta.env.BASE_URL}projects/six.png`,
         tags: ["Python", "Pygame", "CNN", "Machine Learning", "Computer Vision"],
         demoUrl: "#",
-        githubUrl: "https://github.com/DreadPirateSamuel/Deep-TAO-Replication"
+        githubUrl: "https://github.com/DreadPirateSamuel/Digit-Recognition"
     }
 ];
 

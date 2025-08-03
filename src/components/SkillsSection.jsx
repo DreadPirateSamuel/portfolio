@@ -2,22 +2,22 @@ import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 
 const skills = [
-    { name: "HTML/CSS", level: 5, category: "frontend" },
-    { name: "JavaScript", level: 5, category: "frontend" },
+    { name: "HTML/CSS", level: 4, category: "frontend" },
+    { name: "JavaScript", level: 4, category: "frontend" },
     { name: "Node.js", level: 4, category: "backend" },
     { name: "Python", level: 5, category: "backend" },
-    { name: "C++", level: 4, category: "backend" },
-    { name: "C#", level: 4, category: "backend" },
+    { name: "C++", level: 5, category: "backend" },
+    { name: "C#", level: 5, category: "backend" },
     { name: "Java", level: 4, category: "backend" },
     { name: "SQL", level: 4, category: "database" },
-    { name: "MIPS Assembly", level: 3, category: "low-level" },
+    { name: "MIPS Assembly", level: 4, category: "low-level" },
     { name: "PyTorch", level: 4, category: "machine-learning" },
     { name: "GitHub", level: 4, category: "tools" },
-    { name: "VS Code", level: 4, category: "tools" },
+    { name: "VS Code", level: 5, category: "tools" },
     { name: "Linux Environment", level: 4, category: "tools" },
-    { name: "React", level: 4, category: "tools" },
-    { name: "Agile Methodologies", level: 3, category: "methodologies" },
-    { name: "Photoshop", level: 3, category: "design" },
+    { name: "React", level: 3, category: "tools" },
+    { name: "Agile Methodologies", level: 4, category: "methodologies" },
+    { name: "Photoshop", level: 4, category: "design" },
     { name: "InDesign", level: 3, category: "design" },
 ];
 

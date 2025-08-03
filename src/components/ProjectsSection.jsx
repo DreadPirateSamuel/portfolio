@@ -30,28 +30,28 @@ const projects = [
     },
     {
         id: 4,
-        title: "Placeholder Project One",
-        description: "A placeholder project for future  development. Details to be added soon.",
+        title: "Voice-Controlled Personal Assistant",
+        description: "A Python-based personal assistant for software developers, supporting voice and text input with hotword detection ('Hey Assistant'). Features include opening developer tools (VS Code, Git Bash), running Git commands, managing Python virtual environments, launching servers (Flask, Django, Jupyter), sending emails via Gmail SMTP, controlling TunnelBear VPN, file management, and unit conversions.",
         image: `${import.meta.env.BASE_URL}projects/one.png`,
-        tags: ["TBD"],
+        tags: ["Python", "gTTS", "Speech Recognition", "Automation", "Developer Tools"],
         demoUrl: "#",
         githubUrl: "https://github.com/DreadPirateSamuel/Deep-TAO-Replication"
     },
     {
         id: 5,
-        title: "Placeholder Project Two",
-        description: "A placeholder project for future  development. Details to be added soon.",
+        title: "Malware Traffic Classifier",
+        description: "A machine learning web app using XGBoost to classify network traffic as benign or malicious with the UNSW-NB15 dataset. Features a Streamlit interface for real-time predictions based on inputs like duration, protocol, and packet rates. Includes preprocessing with logarithmic transformation, robust scaling, and LabelEncoding for categorical features.",
         image: `${import.meta.env.BASE_URL}projects/one.png`,
-        tags: ["TBD"],
+        tags: ["Python", "XGBoost", "Streamlit", "Machine Learning", "Cybersecurity"],
         demoUrl: "#",
         githubUrl: "https://github.com/DreadPirateSamuel/Deep-TAO-Replication"
     },
     {
         id: 6,
-        title: "Placeholder Project Three",
-        description: "A placeholder project for future development. Details to be added soon.",
+        title: "Digit Recognition",
+        description: "A Pygame-based digit recognition app using a 3-layer CNN trained on MNIST to predict single, double, or triple digits (0-9) drawn on a 560x560 canvas. Supports mode toggling with guiding lines for multi-digit recognition and achieves >98% accuracy on single-digit predictions.",
         image: `${import.meta.env.BASE_URL}projects/one.png`,
-        tags: ["TBD"],
+        tags: ["Python", "Pygame", "CNN", "Machine Learning", "Computer Vision"],
         demoUrl: "#",
         githubUrl: "https://github.com/DreadPirateSamuel/Deep-TAO-Replication"
     }

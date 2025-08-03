@@ -5,6 +5,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read # Required for actions/checkout@v4
+      pages: write  # Required for GitHub Pages deployment
+      id-token: write # Required for actions/deploy-pages@v4
     steps:
       - name: Checkout
         uses: actions/checkout@v4

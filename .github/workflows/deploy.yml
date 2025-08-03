@@ -9,6 +9,9 @@ jobs:
       contents: read # Required for actions/checkout@v4
       pages: write  # Required for GitHub Pages deployment
       id-token: write # Required for actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }} # Optional: Sets deployment URL
     steps:
       - name: Checkout
         uses: actions/checkout@v4

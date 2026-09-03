@@ -31,7 +31,7 @@ export const ContactSection = () => {
                         </a>
                         <div className="flex items-center gap-3 text-foreground">
                             <MapPin className="w-6 h-6 text-primary" />
-                            <span>Tallahassee, Florida</span>
+                            <span>New York, New York</span>
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ export const ContactSection = () => {
                         </a>
                     </div>
 
-                    <p className="text-muted-foreground text-sm">© 2025 Samuel Yoder.</p>
+                    <p className="text-muted-foreground text-sm">© 2026 Samuel Yoder.</p>
                 </div>
             </div>
         </section>

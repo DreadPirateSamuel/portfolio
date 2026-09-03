@@ -4,24 +4,24 @@ import { cn } from '@/lib/utils';
 const skills = [
     { name: "HTML/CSS", level: 4, category: "frontend" },
     { name: "JavaScript", level: 4, category: "frontend" },
-    { name: "Node.js", level: 4, category: "backend" },
+    { name: "Flask", level: 4, category: "backend" },
     { name: "Python", level: 5, category: "backend" },
     { name: "C++", level: 5, category: "backend" },
     { name: "C#", level: 5, category: "backend" },
     { name: "Java", level: 4, category: "backend" },
-    { name: "SQL", level: 4, category: "database" },
-    { name: "MIPS Assembly", level: 4, category: "low-level" },
-    { name: "PyTorch", level: 4, category: "machine-learning" },
-    { name: "GitHub", level: 4, category: "tools" },
+    { name: "SQL / SQLite", level: 4, category: "database" },
+    { name: "MIPS Assembly", level: 4, category: "systems" },
+    { name: "PyTorch / Transformers", level: 4, category: "ai / ml" },
+    { name: "Git", level: 4, category: "tools" },
     { name: "VS Code", level: 5, category: "tools" },
-    { name: "Linux Environment", level: 4, category: "tools" },
-    { name: "React", level: 3, category: "tools" },
-    { name: "Agile Methodologies", level: 4, category: "methodologies" },
-    { name: "Photoshop", level: 4, category: "design" },
-    { name: "InDesign", level: 3, category: "design" },
+    { name: "Linux", level: 4, category: "systems" },
+    { name: ".NET MAUI", level: 3, category: "development" },
+    { name: "APIs & Integrations", level: 4, category: "development" },
+    { name: "Testing & Debugging", level: 4, category: "development" },
+    { name: "Microsoft Excel", level: 3, category: "productivity" },
 ];
 
-const categories = ["all", "frontend", "backend", "database", "low-level", "machine-learning", "tools", "methodologies", "design"];
+const categories = ["all", "frontend", "backend", "database", "systems", "ai / ml", "tools", "development", "productivity"];
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all");
@@ -57,7 +57,7 @@ export const SkillsSection = () => {
                     My <span className="text-primary">Skills</span>
                 </h2>
                 <p className="text-center text-sm text-muted-foreground mb-12">
-                    Rated on a 1–5 scale based on familiarity.
+                    Rated on a 1–5 scale based on familiarity and hands-on experience.
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-4 mb-12">

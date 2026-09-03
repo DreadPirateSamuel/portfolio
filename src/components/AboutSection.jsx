@@ -15,7 +15,7 @@ export const AboutSection = () => {
                         </h3>
 
                         <p className="text-muted-foreground"> 
-                            M.S. Cybersecurity, NYU Tandon School of Engineering — <br />
+                            M.S. Cybersecurity, NYU Tandon — <br />
                             Expected May 2028<br />
                             (NYU Merit Scholarship Recipient)<br /><br />
                             B.A. Computer Science, Florida State University — <br />

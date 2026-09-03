@@ -11,13 +11,15 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Cybersecurity Graduate Student & Software Technologist
+                            Cybersecurity Graduate Student
                         </h3>
 
                         <p className="text-muted-foreground"> 
-                            M.S. Cybersecurity, NYU Tandon School of Engineering — Expected May 2028<br />
-                            B.A. Computer Science, Florida State University — May 2026, Magna Cum Laude<br />
-                            NYU Merit Scholarship Recipient<br /><br />
+                            M.S. Cybersecurity, NYU Tandon School of Engineering — <br />
+                            Expected May 2028<br />
+                            (NYU Merit Scholarship Recipient)<br />
+                            B.A. Computer Science, Florida State University — <br />
+                            May 2026, Magna Cum Laude<br /><br />
                             My interests span cybersecurity, software engineering, artificial intelligence, and systems development. 
                             I have experience building applications with Python, Java, C#, SQL, Flask, and .NET MAUI, developing machine learning models with PyTorch and Transformers, and working with Linux, APIs, databases, and secure application concepts. 
                             Beyond coursework and personal projects, I have hands-on experience with API integrations, IT troubleshooting, technical documentation, data analysis, testing, and improving the reliability of real-world technology workflows.

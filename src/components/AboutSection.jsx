@@ -17,9 +17,9 @@ export const AboutSection = () => {
                         <p className="text-muted-foreground"> 
                             M.S. Cybersecurity, NYU Tandon School of Engineering — <br />
                             Expected May 2028<br />
-                            (NYU Merit Scholarship Recipient)<br />
+                            (NYU Merit Scholarship Recipient)<br /><br />
                             B.A. Computer Science, Florida State University — <br />
-                            May 2026, Magna Cum Laude<br /><br />
+                            May 2026, Magna Cum Laude<br /><br /><br />
                             My interests span cybersecurity, software engineering, artificial intelligence, and systems development. 
                             I have experience building applications with Python, Java, C#, SQL, Flask, and .NET MAUI, developing machine learning models with PyTorch and Transformers, and working with Linux, APIs, databases, and secure application concepts. 
                             Beyond coursework and personal projects, I have hands-on experience with API integrations, IT troubleshooting, technical documentation, data analysis, testing, and improving the reliability of real-world technology workflows.

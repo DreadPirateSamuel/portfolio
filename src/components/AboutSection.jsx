@@ -11,18 +11,16 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Creative Technologist & Lifelong Learner
+                            Cybersecurity Graduate Student & Software Technologist
                         </h3>
 
                         <p className="text-muted-foreground"> 
-                            Core GPA: 3.9<br />
-                            Graduation Date: Spring 2026<br />
-                            Student Member: Association for Computing Machinery<br /><br />
-                            With a foundation in object-oriented programming, AI, and secure system design, 
-                            I thrive on exploring how innovative technology can solve practical problems. 
-                            I value clean code, continuous improvement, and building tools that empower people. 
-                            Whether it's contributing to scalable systems or experimenting with user-focused applications, 
-                            I'm always seeking opportunities to grow, collaborate, and make an impact through thoughtful engineering.
+                            M.S. Cybersecurity, NYU Tandon School of Engineering — Expected May 2028<br />
+                            B.A. Computer Science, Florida State University — May 2026, Magna Cum Laude<br />
+                            NYU Merit Scholarship Recipient<br /><br />
+                            My interests span cybersecurity, software engineering, artificial intelligence, and systems development. 
+                            I have experience building applications with Python, Java, C#, SQL, Flask, and .NET MAUI, developing machine learning models with PyTorch and Transformers, and working with Linux, APIs, databases, and secure application concepts. 
+                            Beyond coursework and personal projects, I have hands-on experience with API integrations, IT troubleshooting, technical documentation, data analysis, testing, and improving the reliability of real-world technology workflows.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,7 +33,7 @@ export const AboutSection = () => {
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                                 download
                             >
-                                Download CV
+                                Download Resume
                             </a>
                         </div>
                     </div>
@@ -47,9 +45,9 @@ export const AboutSection = () => {
                                     <Code className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Full-Stack Development</h4>
+                                    <h4 className="font-semibold text-lg">Software & Application Development</h4>
                                     <p className="text-muted-foreground">
-                                        Build robust web and desktop apps using modern frameworks and databases.
+                                        Build web, desktop, and cross-platform applications using Python, Flask, C#, .NET MAUI, SQL, APIs, and modern development tools.
                                     </p>
                                 </div>
                             </div>
@@ -61,9 +59,9 @@ export const AboutSection = () => {
                                     <Bot className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Artificial Intelligence</h4>
+                                    <h4 className="font-semibold text-lg">Artificial Intelligence & Machine Learning</h4>
                                     <p className="text-muted-foreground">
-                                        Apply machine learning and neural networks to real-world challenges.
+                                        Develop and evaluate neural networks, CNNs, NLP models, and reinforcement learning systems using PyTorch, Transformers, and Python.
                                     </p>
                                 </div>
                             </div>
@@ -75,9 +73,9 @@ export const AboutSection = () => {
                                     <KeyRound className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Secure System Design</h4>
+                                    <h4 className="font-semibold text-lg">Cybersecurity & Systems</h4>
                                     <p className="text-muted-foreground">
-                                        Develop applications with a focus on security, data integrity, and scalability.
+                                        Work with Linux, secure authentication, encryption, access management, system troubleshooting, data integrity, and security-focused application design.
                                     </p>
                                 </div>
                             </div>
@@ -88,4 +86,3 @@ export const AboutSection = () => {
         </section>
     );
 };
-

@@ -31,7 +31,7 @@ export const HeroSection = () => {
 
                 {/* Subtitle */}
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-3">
-                    I'm a passionate Computer Science undergraduate at Florida State University, driven by curiosity and a desire to build meaningful, real-world software. 
+                    I'm an NYU Tandon M.S. Cybersecurity graduate student with a B.A. in Computer Science from Florida State University, focused on cybersecurity, AI/ML, software development, and building reliable real-world systems.
                 </p>
 
                 {/* Button */}
